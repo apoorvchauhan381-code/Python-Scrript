@@ -1,57 +1,55 @@
-# Python Scripts — Data Analytics & Automation
+# Python Scripts — Data & Analytics Toolkit
 
-> A collection of Python utilities, automation scripts, and data analysis snippets built across 6+ years of operations analytics work.
+> A collection of reusable Python scripts for data analytics, automation, and BI workflows.
 
-![Python](https://img.shields.io/badge/Python-3.9+-27500A?style=flat-square&labelColor=EAF3DE)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-0C447C?style=flat-square&labelColor=E6F1FB)
-![Automation](https://img.shields.io/badge/Automation-ETL%20%7C%20Pipelines-633806?style=flat-square&labelColor=FAEEDA)
+## 📋 Overview
 
----
+Utility scripts built and refined over 7+ years of data analytics work across aviation operations, vendor management, and AI-powered reporting. These cover common patterns in ETL pipelines, data cleaning, automated reporting, and LLM integrations.
 
-## 📂 What's in here
+## 📁 Script Categories
 
-Scripts and utilities covering areas I work in regularly:
+### 🔄 ETL & Data Processing
+- Data ingestion from multi-source ops databases
+- Automated cleaning and transformation pipelines
+- Scheduled refresh utilities
 
-### Data Pipeline & ETL
-- Data ingestion scripts for multi-source ops data
-- ETL transformation utilities
-- Data quality validation helpers
-- Scheduled pipeline triggers
-
-### Analytics & Reporting
-- SQL query builders and parameterized templates
-- KPI calculation utilities
+### 📊 Analytics & Reporting
+- KPI calculation frameworks
+- Anomaly detection helpers
 - Automated report generation scripts
-- Dashboard data prep pipelines
 
-### AI & LLM Utilities
-- OpenAI API wrappers for ops analytics use cases
-- LangChain prompt templates
-- RAG pipeline helpers
-- Anomaly detection logic snippets
+### 🤖 AI & LLM Utilities
+- LangChain agent scaffolding
+- RAG pipeline helpers (chunking, embedding, retrieval)
+- OpenAI API wrappers for NLQ interfaces
 
-### Ops Analytics
-- OTP (On-Time Performance) calculation scripts
-- Vendor performance scoring utilities
-- SLA compliance tracking helpers
-- Partner data partitioning logic
+### 🔔 Alerting & Monitoring
+- Slack alerting utilities
+- Threshold-based anomaly triggers
+- Scheduled monitoring scripts
 
----
+## 🛠️ Tech Stack
 
-## 🛠️ Tech used across scripts
+```
+Python 3.10+
+├── pandas, numpy          # Data manipulation
+├── sqlalchemy, psycopg2   # Database connectivity
+├── langchain, openai      # LLM and RAG pipelines
+├── slack-sdk              # Slack alerting
+├── schedule               # Job scheduling
+└── pytest                 # Testing
+```
 
-`Python 3.9+` `pandas` `sqlalchemy` `psycopg2` `openai` `langchain` `airflow` `requests` `dotenv`
+## 🚀 Getting Started
 
----
+```bash
+git clone https://github.com/apoorvchauhan381-code/Python-Scrript
+cd Python-Scrript
+pip install -r requirements.txt
+```
 
-## 📌 Context
+Each script includes inline documentation. See individual script headers for usage instructions.
 
-These scripts are utilities built alongside my main projects at United Airlines. The larger platforms (AI Ops Intelligence Platform, Vendor SLA Automation, Multi-Partner Reporting) live in their own repos — this is the scratchpad where individual components get developed and tested before being integrated.
+## 📝 Notes
 
----
-
-## 👤 Author
-
-**Apoorv Chauhan**  
-📧 apoorvchauhan381@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/apoorv-chauhan-8a8865198)  
-🔗 [ai-ops-intelligence-platform](https://github.com/apoorvchauhan381-code/ai-ops-intelligence-platform) · [vendor-sla-payment-automation](https://github.com/apoorvchauhan381-code/vendor-sla-payment-automation)
+Scripts are sanitised for public sharing. Any references to internal systems use placeholder configs.
